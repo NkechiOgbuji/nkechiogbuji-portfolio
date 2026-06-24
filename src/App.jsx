@@ -367,14 +367,39 @@ function App() {
         <h2 className="text-4xl font-extrabold mb-8">Certifications</h2>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {certifications.map((cert) => (
-            <div
-              key={cert}
-              className="bg-white rounded-2xl p-6 shadow border border-gray-100"
-            >
-              <h3 className="font-bold text-lg">{cert}</h3>
-            </div>
-          ))}
+         {certifications.map((cert) => (
+           <div
+             key={cert}
+             className="bg-white rounded-2xl p-6 shadow border border-gray-100"
+          >
+             <h3 className="font-bold text-lg mb-4">{cert}</h3>
+
+             {cert === "DMI DevOps Micro-Internship" && (
+              <>
+                 <a
+                  href="/certificates/dmi-devops-certificate.png"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/certificates/dmi-devops-certificate.png"
+                    alt="DMI DevOps Certificate"
+                    className="w-full max-w-sm mx-auto rounded-lg shadow-md hover:scale-105 transition duration-300"
+                  />
+                </a>
+
+                <a
+                 href="/certificates/dmi-devops-certificate.png"
+                 target="_blank"
+                 rel="noreferrer"
+                 className="block text-center mt-4 text-[#CC5500] font-semibold hover:underline"
+                >
+                 View Certificate →
+               </a>
+             </>
+            )}
+         </div>
+       ))}
         </div>
       </section>
 
