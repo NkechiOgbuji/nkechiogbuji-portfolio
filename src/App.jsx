@@ -179,7 +179,25 @@ function App() {
             >
               GitHub
             </a>
+  
+            <a
+              href="https://www.upwork.com/freelancers/~011dc05d447201095f"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[#CC5500]"
+            >
+              Upwork
+            </a>
 
+            <a
+              href="https://x.com/kykycloud"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[#CC5500]"
+            >
+              X
+            </a>
+    
             <a
               href="https://www.linkedin.com/in/nkechiogbuji"
               target="_blank"
@@ -360,10 +378,6 @@ function App() {
         </div>
       </section>
 
-    <div className="bg-white p-6 rounded-2xl text-center shadow">
-      <p className="mt-3 font-bold">AWS</p>
-    </div>
-
       <section id="blogs" className="max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-4xl font-extrabold mb-8">Technical Blog</h2>
 
@@ -420,6 +434,24 @@ function App() {
               className="border border-gray-300 bg-white px-8 py-4 rounded-lg font-bold hover:bg-gray-50"
             >
               LinkedIn
+            </a>
+
+            <a
+              href="https://www.upwork.com/freelancers/~011dc05d447201095f"
+              target="_blank"
+              rel="noreferrer"
+              className="border border-gray-300 bg-white px-8 py-4 rounded-lg font-bold"
+            >
+              Upwork
+            </a>
+
+            <a
+              href="https://x.com/kykycloud"
+              target="_blank"
+              rel="noreferrer"
+              className="border border-gray-300 bg-white px-8 py-4 rounded-lg font-bold"
+            >
+              X
             </a>
 
             <a
